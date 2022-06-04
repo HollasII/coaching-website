@@ -1,0 +1,56 @@
+@import 'variables';
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: $fonts;
+}
+header
+{
+    height: 100vh;
+    position: relative;
+}
+img
+{
+    width: 100%;
+    display: block;
+}
+a
+{
+    text-decoration: none;
+
+    &:hover
+    {
+        cursor: pointer;
+    }
+}
+nav
+{
+    ul 
+    {
+        list-style: none;
+    }
+    li 
+    {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    a 
+    {
+        color: inherit;
+    }
+
+    .cta 
+    {
+        background-color: map-get($colors, main);
+
+        &:hover 
+        {
+            transform: scale(0.98);
+        }
+    }
+}

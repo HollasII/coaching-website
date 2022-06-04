@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'bodywork.scss';
+@import 'header';
+@import 'section';
+@import 'touch';
+
+.cta 
+{
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 5px;
+    color: map-get($colors, text2);
+    font-weight: 500;
+    border: 2px solid map-get($colors, main);
+
+    &:hover {
+        transform: scale(0.98);
+    }
+}
