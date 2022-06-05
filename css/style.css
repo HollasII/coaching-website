@@ -25,6 +25,14 @@ a:hover {
   cursor: pointer;
 }
 
+nav {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 nav ul {
   list-style: none;
 }
@@ -80,7 +88,7 @@ nav .cta:hover {
 .header-body .header-img img {
   width: 90%;
 }
-.header-body .header-img .header-ecllipse {
+.header-body .header-img .header-eclipse {
   position: absolute;
   bottom: 0;
   right: 25px;
@@ -100,6 +108,149 @@ nav .cta:hover {
 
 .coaching {
   background-color: rgba(47, 185, 242, 0.0588235294);
+}
+.coaching > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.coaching .coaching-left {
+  flex-basis: 40%;
+}
+.coaching .coaching-left img {
+  width: 80%;
+}
+.coaching .coaching-left .eclipse {
+  position: absolute;
+  top: -40px;
+  left: -170px;
+  width: 50%;
+}
+.coaching .coaching-right {
+  flex-basis: 55%;
+}
+.coaching .coaching-right h2 {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.1;
+}
+.coaching .coaching-right p {
+  margin: 15px 0;
+}
+.coaching .coaching-right .pink-eclipse {
+  width: 10%;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+.coaching .coaching-right .blue-eclipse {
+  width: 15%;
+  position: absolute;
+  right: 50px;
+  bottom: 40px;
+}
+.coaching .cta {
+  background-color: #2FA0F2;
+  border: none;
+}
+
+.purpose {
+  background-color: #fafafa;
+  padding: 150px 0 50px;
+}
+
+.purpose > div > h3 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 300;
+}
+.purpose > div h3 {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.purpose > div .pink-ellipse {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}
+.purpose > div .half-circle {
+  position: absolute;
+  bottom: -10px;
+  left: 40px;
+}
+.purpose > div .blue-ellipse2 {
+  position: absolute;
+  top: 60px;
+  right: 300px;
+}
+.purpose > div .pink-ellipse2 {
+  position: absolute;
+  top: 60px;
+  right: 230px;
+}
+
+.cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .card {
+  flex-basis: 31%;
+  padding: 40px 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+}
+.cards .card img {
+  width: 10%;
+  display: inline-block;
+}
+.cards .card .cta {
+  background-color: #F24A4A;
+  vertical-align: middle;
+  margin-top: 25px;
+}
+
+.process {
+  background-color: rgba(47, 185, 242, 0.0588235294);
+  text-align: center;
+  padding: 70px 0;
+  margin-top: 70px;
+}
+.process > div > h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+.process > div > p {
+  width: 40%;
+  margin: auto;
+}
+.process > div .card {
+  background-color: inherit;
+  box-shadow: none;
+  flex-basis: 33%;
+}
+.process > div .card img {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.process > div .card h3 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.process > div .card .pink-ellipse3 {
+  width: 10%;
+  position: absolute;
+  top: -20px;
+  right: 30px;
+}
+.process > div .card .work-ecllipse {
+  width: 6%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .touch {
